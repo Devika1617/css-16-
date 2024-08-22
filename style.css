@@ -1,0 +1,59 @@
+*{
+   
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+}
+
+body{
+   
+    background-color: rgb(100, 123, 165);
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    height: 100vh;
+        align-items: center;
+}
+
+.TopParent{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    width: 370px;
+    background-color: bisque;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.796)
+}
+
+img{
+    border: 2px dotted;
+ 
+}
+.top{
+    display: inline-block;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 5px;
+}
+.middle{
+    font-weight: bold;
+    font-size: 700;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+
+}
+.fa-star{
+    color: green;
+}
+.text-dec{
+    text-decoration: none;
+}
